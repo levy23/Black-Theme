@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.container {
+    margin:0 auto;
+    max-width:1140px;
+}
+
+.row {
+    margin-left:-15px;
+    margin-right:-15px;
+}
+
+.row .col-1-2 {
+    width: 50%;
+    float:left;
+    padding:0 15px;
+}
+
+.row .col-1-3 {
+    width: 33.3333%;
+    float:left;
+    padding:0 15px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* -------------------------------------------- */
+/* page header */
+/* -------------------------------------------- */
+.page-header {
+    background: #000;
+    padding:10px 0;
+}
+.page-logo {
+    float:left;
+}
+.page-logo img {
+    display: block;
+}
+.page-nav {
+    float:right;
+}
+.page-nav li {
+    display: inline-block;
+}
+.page-nav a {
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 60px;
+    display: inline-block;
+    padding:0 10px;
+    font-weight: 700;
+    transition: 0.5s all;
+}
+.page-nav a:hover {
+    color:#30A9DE;
+}
+
+/* -------------------------------------------- */
+/* main content */
+/* -------------------------------------------- */
+.main-content {
+    padding:20px 0;
+}
+.main-content-title {
+    font-size:2rem;
+    font-weight: 400;
+    margin:1.5rem 0;
+    margin-top:0;
+    text-transform: uppercase;
+}
+.main-content-text {
+    color:#444;
+}
+
+/* -------------------------------------------- */
+/* main gallery */
+/* -------------------------------------------- */
+.main-gallery {
+    background: #000;
+    padding:20px 0;
+}
+
+/* -------------------------------------------- */
+/* page footer */
+/* -------------------------------------------- */
+.page-footer {
+    padding:20px 0;
+}
+.page-footer .copyright {
+    float:left;
+    line-height: 60px;
+}
+.page-footer .page-footer-logo {
+    float:right;
+}
