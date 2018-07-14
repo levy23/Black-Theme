@@ -1,8 +1,9 @@
-# black-theme
+# black-template
 
-Prosty szablon strony.
+Simple website template.
+For this project there was created file RESET.CSS.
 Dla projektu został stworzony RESET.CSS.
 
-# wykorzystane technologie:
+# Used technologies:
 
 html, CSS
